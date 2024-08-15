@@ -31,6 +31,6 @@ This project focuses on building a machine learning model to predict the genre o
 
 ## Files
 
-- `movie_genre_classifier.py`: Main code file for training and evaluating the model.
+- `movie_classification.py`: Main code file for training and evaluating the model.
 - `output.txt`: Contains the results and performance metrics of the model.
 
