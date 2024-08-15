@@ -6,10 +6,8 @@ This project focuses on building a machine learning model to predict the genre o
 
 ## Dataset
 
-- The dataset contains movie plot summaries and their corresponding genres, provided in the files:
-  - `train_data.csv`: Training data
-  - `test_data.csv`: Test data
-  - `test_data_solution.csv`: True genres for the test data
+- The dataset used in this project can be downloaded from [this link](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb).
+- It contains movie plot summaries and their corresponding genres.
 
 ## Approach
 
@@ -28,22 +26,11 @@ This project focuses on building a machine learning model to predict the genre o
 
 ## Results
 
-- The **Multinomial Naive Bayes** model achieved an accuracy of **52%**.
-- Detailed performance metrics include:
-  - **Precision**: Varies by genre
-  - **Recall**: Varies by genre
-  - **F1-Score**: Varies by genre
-- A sample prediction from the model:
-  - Plot: "A young orphaned girl discovers a magical world inside a wardrobe and helps to end the eternal winter caused by an evil queen."
-    - Predicted Genre: **Drama**
-  - Plot: "In a dystopian future, a group of rebels fights against a totalitarian regime that controls the world's resources and oppresses its citizens."
-    - Predicted Genre: **Documentary**
+- The **Multinomial Naive Bayes** model provided the best performance with an accuracy of **[Actual Accuracy]%**.
 - Detailed performance metrics and confusion matrix are available in `output.txt`.
 
 ## Files
 
 - `movie_genre_classifier.py`: Main code file for training and evaluating the model.
-- `train_data.csv`: Training dataset.
-- `test_data.csv`: Test dataset.
-- `test_data_solution.csv`: True labels for the test dataset.
 - `output.txt`: Contains the results and performance metrics of the model.
+
