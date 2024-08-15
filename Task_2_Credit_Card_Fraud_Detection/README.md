@@ -47,6 +47,6 @@ This project aims to detect fraudulent credit card transactions using machine le
 
 ## Files
 
-- `fraud_detection.py`: Code for training and testing the models.
+- `frauddetection.py`: Code for training and testing the models.
 - `fraudTrain.csv` and `fraudTest.csv`: The datasets used for analysis.
 - `output.txt`: Performance metrics of the different models.
