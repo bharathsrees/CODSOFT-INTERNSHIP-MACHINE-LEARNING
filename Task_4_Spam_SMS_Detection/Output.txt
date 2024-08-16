@@ -1,0 +1,46 @@
+Model: Naive Bayes
+Accuracy: 0.97
+Confusion Matrix:
+[[965   0]
+ [ 37 113]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       965
+           1       1.00      0.75      0.86       150
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.88      0.92      1115
+weighted avg       0.97      0.97      0.96      1115
+
+
+Model: Logistic Regression
+Accuracy: 0.95
+Confusion Matrix:
+[[962   3]
+ [ 50 100]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       965
+           1       0.97      0.67      0.79       150
+
+    accuracy                           0.95      1115
+   macro avg       0.96      0.83      0.88      1115
+weighted avg       0.95      0.95      0.95      1115
+
+
+Model: Support Vector Machine
+Accuracy: 0.98
+Confusion Matrix:
+[[961   4]
+ [ 19 131]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       965
+           1       0.97      0.87      0.92       150
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.93      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
