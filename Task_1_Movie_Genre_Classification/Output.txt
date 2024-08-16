@@ -1,0 +1,43 @@
+Model Evaluation:
+Accuracy: 0.52
+
+              precision    recall  f1-score   support
+
+      action       0.55      0.11      0.18      1314
+       adult       0.51      0.06      0.11       590
+   adventure       0.81      0.07      0.13       775
+   animation       0.00      0.00      0.00       498
+   biography       0.00      0.00      0.00       264
+      comedy       0.51      0.42      0.46      7446
+       crime       0.00      0.00      0.00       505
+ documentary       0.57      0.87      0.69     13096
+       drama       0.46      0.82      0.59     13612
+      family       0.50      0.00      0.00       783
+     fantasy       0.00      0.00      0.00       322
+   game-show       0.98      0.32      0.48       193
+     history       0.00      0.00      0.00       243
+      horror       0.69      0.36      0.47      2204
+       music       0.74      0.15      0.25       731
+     musical       0.00      0.00      0.00       276
+     mystery       0.00      0.00      0.00       318
+        news       0.00      0.00      0.00       181
+  reality-tv       0.55      0.02      0.05       883
+     romance       0.00      0.00      0.00       672
+      sci-fi       0.64      0.06      0.11       646
+       short       0.59      0.12      0.20      5072
+       sport       0.81      0.10      0.18       431
+   talk-show       0.00      0.00      0.00       391
+    thriller       0.29      0.02      0.03      1590
+         war       0.00      0.00      0.00       132
+     western       0.94      0.62      0.75      1032
+
+    accuracy                           0.52     54200
+   macro avg       0.38      0.15      0.17     54200
+weighted avg       0.51      0.52      0.45     54200
+
+User Input Predictions:
+Plot: A young orphaned girl discovers a magical world inside a wardrobe and helps to end the eternal winter caused by an evil queen.
+Predicted Genre: drama
+
+Plot: In a dystopian future, a group of rebels fights against a totalitarian regime that controls the world's resources and oppresses its citizens.
+Predicted Genre: documentary
