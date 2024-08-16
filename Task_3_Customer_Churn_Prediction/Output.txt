@@ -1,0 +1,23 @@
+Logistic Regression Accuracy: 0.8155
+Random Forest Accuracy: 0.8670
+Gradient Boosting Accuracy: 0.8660
+
+Best Model: RandomForestClassifier with Accuracy: 0.8670
+
+Confusion Matrix:
+[[1550   57]
+ [ 209  184]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      1607
+           1       0.76      0.47      0.58       393
+
+    accuracy                           0.87      2000
+   macro avg       0.82      0.72      0.75      2000
+weighted avg       0.86      0.87      0.85      2000
+
+Best Hyperparameters for RandomForestClassifier: {'max_depth': 30, 'min_samples_split': 10, 'n_estimators': 200}
+
+Final Model Accuracy: 0.8670
