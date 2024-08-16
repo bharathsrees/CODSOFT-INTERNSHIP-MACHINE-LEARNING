@@ -1,0 +1,26 @@
+Logistic Regression:
+Accuracy: 0.9937414412679789
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00    553574
+           1       0.34      0.69      0.46      2145
+
+    accuracy                           0.99    555719
+   macro avg       0.67      0.84      0.73    555719
+weighted avg       1.00      0.99      0.99    555719
+
+
+Decision Tree Classifier:
+Accuracy: 0.9810119862736383
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99    553574
+           1       0.15      0.83      0.25      2145
+
+    accuracy                           0.98    555719
+   macro avg       0.57      0.91      0.62    555719
+weighted avg       1.00      0.98      0.99    555719
+
+
+Random Forest:
+Accuracy: 0.9738015075964651
